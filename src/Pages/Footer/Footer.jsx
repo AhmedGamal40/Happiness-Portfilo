@@ -6,6 +6,7 @@ import gallery4  from '../../Assets/gallery-04.png'
 import gallery5  from '../../Assets/gallery-05.jpg'
 import gallery6  from '../../Assets/gallery-06.png'
 import logo from '../../Assets/logo1.jpg'
+import { Link } from "react-router-dom";
 
 function Footer() {
   return <div>
@@ -38,21 +39,21 @@ function Footer() {
             </div>
             <div className="box">
                 <ul className="links">
-                    <li><i className="fa fa-angle-double-right"></i><a href="#articles"  alt=''>Article</a></li>
-                    <li><i className="fa fa-angle-double-right"></i><a href="#features" alt=''> Features</a></li>
-                    <li><i className="fa fa-angle-double-right"></i><a href="#services"  alt=''>Services</a></li>
-                    <li><i className="fa fa-angle-double-right"></i><a href="#reviews"  alt=''>Clients Reviews</a></li>
-                    <li><i className="fa fa-angle-double-right"></i><a href="#work-steps"  alt=''>How It Works</a></li>
+                    <li><i className="fa fa-angle-double-right"></i><Link to="/"  alt=''>Home</Link></li>
+                    <li><i className="fa fa-angle-double-right"></i><Link to="/services"  alt=''>Services</Link></li>
+                    <li><i className="fa fa-angle-double-right"></i><Link to="/portfolio"  alt=''>Portfolio</Link></li>
+                    <li><i className="fa fa-angle-double-right"></i><Link to="/event"  alt=''>Event</Link></li>
+                    <li><i className="fa fa-angle-double-right"></i><Link to="/contact"  alt=''>Contact</Link></li>
                 </ul>
             </div>
             <div className="box">
                 <div className="line">
                     <i class="fas fa-map-marked-alt"></i>
-                    <div className="info">Egypt, Cairo, Zagazig </div>
+                    <div className="info">Egypt, Cairo </div>
                 </div>
                 <div className="line">
                     <i class="fas fa-clock"></i>
-                    <div className="info">Business Hours: From 90:00 href 18:00</div>
+                    <div className="info">Business Hours: From 90:00 AM href 9:00 PM</div>
                 </div>
                 <div className="line">
                     <i className="fa fa-phone fa-fw"></i>

@@ -27,18 +27,18 @@ let reviews = [
      {
         name:'Gamal Abdelftah',
         address:'Jeddah, Saudi Arabia',
-        review:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident perferendis quos facere harum officia quibusdam nam error exercitationem assumenda, deleniti, iste delectus porro, voluptatibus explicabo. Odio eius doloribus error maiores?',
+        review:'شكرًا لكم على مجهودكم الرائع في إنجاز هذا المشروع بكفاءة واحترافية عالية. فريق العمل كان متميزًا والتعامل كان محترمًا جدًا، وأود أن أشكر المصمم خاصة على التصميم الجميل. بارك الله فيكم وأتمنى لكم المزيد من النجاح والتقدم.',
         image:[avatar4]
     },
      {
         name:'Samir Galal',
         address:'Dubai, United Arab Emirates',
-        review:'مبقتش عارف امتب اى الصراحه',
+        review:'فريق عمل متميز ومحترف، قدم خدمات ممتازة وتعامل راقٍ. أشكركم على جهودكم المبذولة في تحقيق هذا المشروع بنجاح. التصميم رائع ويعكس مهارة عالية، وأتطلع لرؤية المزيد من إبداعاتكم في المستقبل. بالتوفيق واستمروا في تقديم الأفضل!',
         image:[avatar5]
     },
      {
         name:'Ahmed Gamal',
-        address:'Alexandria, ُلغحف',
+        address:'Alexandria, Egypt',
         review:'عاش ياشباب على الشغل الجميل والتطبيق الرائع ده بالتوفيق لكل مهندس انشاء الله',
         image:[avatar6]
     },

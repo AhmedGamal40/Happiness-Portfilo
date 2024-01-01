@@ -487,6 +487,7 @@ ul {
   margin: 10px 0 0;
   line-height: 1.5;
   color: #777;
+  text-align: start;
 }
 
 .articles .box .info {
@@ -497,7 +498,7 @@ ul {
   align-items: center;
 }
 
-.articles .box .info a {
+.articles .box a .info {
   color: var(--main-color);
   font-weight: bold;
 }

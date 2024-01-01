@@ -15,9 +15,10 @@ function Navbar() {
             </Link>
             <ul className="main-nav">
                 <li><Link to="/">Home</Link></li>
-                <li><Link to="/features">Features</Link></li>
                 <li><Link to="/services">Services</Link></li>
-                <li><Link to="/events">Events</Link></li>
+                <li><Link to="/portfolio">Portfolio</Link></li>
+                <li><Link to="/event">Event</Link></li>
+                <li><Link to="/contact">Contact</Link></li>
                 {/* <li> */}
                     {/* <a href="##">Other Links</a> */}
                     {/* <!-- Start Megamenu --> */}

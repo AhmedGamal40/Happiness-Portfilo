@@ -1,12 +1,12 @@
 import React from "react";
-import data from '../../Data/Articles'
+import data from '../../Data/Projects'
 import { Link } from "react-router-dom";
 
-function ArticlesPage() {
+function ProjectsPage() {
   return <div>
      {/* <!-- Start Articles --> */}
     <div className="articles" id="articles">
-        <h2 className="main-title">Articles</h2>
+        <h2 className="main-title">Our Projects</h2>
         <div className="container">
             {
                 data.length > 0 ? (
@@ -18,12 +18,12 @@ function ArticlesPage() {
                                     <h3>{item.title}</h3>
                                     <p>{item.shortDesc}</p>
                                 </div>
+                                    <Link to={`/projects-detalis/${item.id}`} target="blank">
                                 <div className="info">
-                                    <Link to={`/articles-detalis/${item.id}`}>
                                         More Detalis
-                                    </Link>
                                     <i class="fas fa-long-arrow-alt-right"></i>
                                 </div>
+                                    </Link>
                             </div>
                         )
                     })
@@ -36,4 +36,4 @@ function ArticlesPage() {
   </div>;
 }
 
-export default ArticlesPage;
+export default ProjectsPage;

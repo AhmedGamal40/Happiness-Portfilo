@@ -23,22 +23,6 @@ function Work() {
                         )
                     })
                 }
-                {/* <div className="box">
-                    <img src="./images/work-steps-2.png" alt=""/>
-                    <div className="text">
-                        <h3>Architecture</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga nihil dolorem excepturi earum libero nobis.
-                        </p>
-                    </div>
-                </div>
-                <div className="box">
-                    <img src="./images/work-steps-3.png" alt=""/>
-                    <div className="text">
-                        <h3>Developement</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga nihil dolorem excepturi earum libero nobis.
-                        </p>
-                    </div>
-                </div> */}
             </div>
         </div>
     </div>

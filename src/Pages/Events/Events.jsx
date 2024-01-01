@@ -102,8 +102,8 @@ const [time, setTime] = useState({
                         <span>Seconds</span>
                     </div>
                 </div>
-                <h2 className="title">Tech Masters Event {Years}</h2>
-                <p className="description">Lorem ipsum dolor sit amet consectetur psum dolor sit amet consectetu adipisicing elit. Numquam quia iusto eaque inventore velit fugit?</p>
+                <h2 className="title">Event {Years}</h2>
+                <p className="description">A technical event is being prepared to express the company's interest in development and interest in keeping pace with modern technical developmentز</p>
             </div>
             
         </div>

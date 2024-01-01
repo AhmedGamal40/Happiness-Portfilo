@@ -22,7 +22,7 @@ function Landing () {
                             <br />
                             Services
                         </h1>
-                        <p>Happiness Coders a leading technology company that specializes in website development and mobile application creation. With a team of highly skilled professionals,Happiness Coders to deliver innovative and user-centric digital solutions to meet the diverse needs of its clients.</p>
+                        <p>Happiness Coders is a technical team specialized in developing websites and mobile applications.</p>
                 </div>
                 <div className="image">
                     <img src={landing} alt=""/>

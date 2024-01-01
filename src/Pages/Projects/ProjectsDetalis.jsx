@@ -1,24 +1,24 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import { Carousel, Container } from "react-bootstrap";
-import Articles from '../../Data/Articles'; // Import your Articles data
+import Projects from '../../Data/Projects'; // Import your Projects data
 
-function ArticlesDetails() {
+function ProjectsDetalis() {
     const params = useParams();
-    const articleId = parseInt(params.id, 10); // Ensure the ID is an integer
-    const article = Articles.find(item => item.id === articleId); // Find the article by ID
+    const projectId = parseInt(params.id, 10); // Ensure the ID is an integer
+    const project = Projects.find(item => item.id === projectId); // Find the project by ID
 
-    if (!article) {
-        return <div>Article not found</div>; // Handle article not found
+    if (!project) {
+        return <div>project not found</div>; // Handle project not found
     }
 
     return (
         <Container >
            
              <div className="card m-3" style={{textAlign:'center'}}>
-  <h3 className="card-header mb-3">{article.title}</h3>
+  <h3 className="card-header mb-3">{project.title}</h3>
   <Carousel>
-    {article.images.map((src, index) => (
+    {project.images.map((src, index) => (
         <Carousel.Item key={index}>
             <img 
                 src={src} 
@@ -30,19 +30,18 @@ function ArticlesDetails() {
     ))}
 </Carousel>
   <div className="card-body">
-    <p className="card-text">{article.desc}</p>
+    <p className="card-text">{project.desc}</p>
   </div>
   <ul className="list-group list-group-flush">
-    <li className="list-group-item">Cras justo odio</li>
-    <li className="list-group-item">Dapibus ac facilisis in</li>
-    <li className="list-group-item">Vestibulum at eros</li>
+    <li className="list-group-item"><strong>System : </strong> {project.system}</li>
+    <li className="list-group-item"><strong>Language : </strong> {project.lang}</li>
   </ul>
   <div className="card-footer text-muted">
-    2 days ago
+    {project.date}
   </div>
 </div>
         </Container>
     );
 }
 
-export default ArticlesDetails;
+export default ProjectsDetalis;

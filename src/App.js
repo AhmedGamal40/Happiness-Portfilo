@@ -5,11 +5,12 @@ import './App.css';
 import Home from './Pages/Home';
 import Navbar from './Pages/Navbar/Navbar';
 import Footer from './Pages/Footer/Footer';
-import FeaturesPage from './Pages/FeaturesPage';
-import ServicesPage from './Pages/ServicesPage';
 import EventsPage from './Pages/EventsPage';
+import ServicesPage from './Pages/ServicesPage';
 import { useEffect, useRef } from 'react';
-import ArticlesDetalis from './Pages/Article/ArticlesDetalis';
+import ProjectsDetalis from './Pages/Projects/ProjectsDetalis';
+import ContactPage from './Pages/ContactPage';
+import PortfolioPage from './Pages/PortfolioPage';
 
 function App() {
 
@@ -46,13 +47,14 @@ function App() {
         <Navbar />
         <Routes>
           <Route path='/' element={<Home/>} />
-          <Route path='/features' element={<FeaturesPage/>} />
+          <Route path='/event' element={<EventsPage/>} />
           <Route path='/services' element={<ServicesPage/>} />
-          <Route path='/events' element={<EventsPage/>} />
-          <Route path='/articles-detalis/:id' element={<ArticlesDetalis/>} />
+          <Route path='/portfolio' element={<PortfolioPage/>} />
+          <Route path='/contact' element={<ContactPage/>} />
+          <Route path='/projects-detalis/:id' element={<ProjectsDetalis/>} />
         </Routes>
-      </BrowserRouter>
       <Footer/>
+      </BrowserRouter>
       <button className="go-up" ref={scrollButtonRef} onClick={handleScrollToTop}>
       <i className="fa fa-angle-double-up fa-2x"></i>
     </button>

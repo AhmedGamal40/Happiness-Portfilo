@@ -1,13 +1,13 @@
 import React from "react";
+import Testimonials from "./Reviews/Reviews";
+import Teams from "./Teams/Teams";
 import Events from "./Events/Events";
-import Stats from "./Stats/Stats";
-import Discount from "./Discount/Discount";
 
 function EventsPage() {
   return <div>
-    <Events/>
-    <Stats />
-    <Discount />
+    <Events />
+    <Testimonials />
+    <Teams />
   </div>;
 }
 
